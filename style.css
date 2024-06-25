@@ -1,0 +1,175 @@
+*{
+    margin: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+
+.hero, header, footer, a{
+    background-color:darkcyan;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 2% 15%;
+}
+
+ .nav-items a{
+    padding:5px 10px;
+    font-size: medium;
+    color: #E5E7EB;
+}
+
+
+.logo img {
+    width: 200px;
+}
+
+.container2-left{
+    flex-direction: column;
+}
+
+.hero h1{
+    color: #F9FAF8;
+    font-weight: 800;
+    font-size: 48px;
+    padding: 5px;
+
+}
+
+
+.hero p {
+    font-size: 25px;
+    color: #E5E7EB;
+    font-size: large;
+    font-family:'Cambria, Cochin', Georgia, Times, 'Times New Roman', serif;
+    font-weight: 200spx;
+    padding: 10px;
+}
+
+button {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border-radius: 10px;
+    border-color: #3882F6;
+    padding: 10px 25px;
+    font-weight: bold;
+    margin: 15px;
+    border-style: solid;
+}
+
+
+
+.container2 {
+    display: flex;
+    padding: 5% 15%; 
+    padding-bottom: 150px;
+}
+
+
+.container2 img {
+    width: 600px;
+    height: 400px;
+    object-fit:cover;
+    
+}
+
+
+
+
+.container3{
+    padding: 3% 15%;
+    padding-bottom: 100px;
+}
+
+.container3 h2 {
+    font-size: 36px;
+    color: #1F2937;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.container3-items{
+    display: flex;
+    justify-content: space-between;
+    font-weight: 350px;
+    
+}
+
+.container3-item img {
+    width: 250px;
+    height: 200px;
+    border-radius: 10px;
+    gap: 50px;
+    object-fit: cover;
+
+}
+
+.container3 .des {
+    text-align:center;
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serifS;
+    font-weight: bolder;
+    text-transform: capitalize;
+}
+
+.container4{
+    background-color:#E5E7EB;
+    padding: 7% 26%;
+}
+
+.container4 .quote{
+    font-weight: 100;
+    font-style:italic;
+    font-size: 36px;
+    color:#1F2937;
+}
+
+.container4 .quote-author{
+    font-size: 20px;
+    text-align: end;
+    font-weight:bold;
+    font-style: italic;
+}
+
+
+
+.container5{
+    display: flex;
+    background-color: #3882F6;
+    color:#E9FAF8;
+    font-size: medium;
+    padding: 3% 5%;
+    margin: 5% 15%;
+    border-radius: 5px;
+}
+
+.container5-left {
+    font-size: 23px;
+}
+
+.store-name{
+    padding-bottom: 10px;
+    font-weight: 700;
+}
+
+.container5-right {
+    margin: auto;
+}
+
+.container5-right button {
+    border-color: white;
+    border-style: solid;
+    font-size: 15px;
+    padding: 10px 20px;
+}
+
+
+
+footer{
+    text-align: center;
+    padding-top:30px;
+    padding-bottom: 30px;
+    color: #E9FAF8;
+    font-size: 18px;
+}
+
